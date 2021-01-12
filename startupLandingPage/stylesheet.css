@@ -1,0 +1,44 @@
+body,
+html {
+  /*Using CSS Tricks */
+  background: url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  border-color: #f05f44;
+  border-width: 3px;
+  max-width: 40px;
+}
+
+.title {
+  color: aliceblue;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  border-radius: 200px;
+  background-color: #f05f44;
+  border-color: #f05f44;
+}
+
+.btn-primary {
+  background-color: #f05f44;
+  border-color: #f05f44;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn-primary:hover {
+  transform: scale(1.04);
+  background-color: #f05f44;
+  border-color: #f05f44;
+}
